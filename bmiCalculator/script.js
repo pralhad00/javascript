@@ -31,7 +31,8 @@ if (height === '' || isNaN(height) || height <= 0 || weight === '' || isNaN(weig
 
 //bmi calculation
 const bmi = weight/Math.pow(height/100,2)
-result.textContent = `your bmi is ${bmi.toFixed(1)}`;
+//result show in page
+result.textContent = `your bmi is ${bmi.toFixed(2)}`;
 form.style.display='none';
 result.style.display='block'
 reset.style.display='block'
