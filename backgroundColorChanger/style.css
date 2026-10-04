@@ -26,6 +26,12 @@ nav a{
    
 }
 
+@media (max-width: 950px){
+    nav{
+        font-size: 16px;
+    }
+}
+
 
 .canvas {
     display: flex;
